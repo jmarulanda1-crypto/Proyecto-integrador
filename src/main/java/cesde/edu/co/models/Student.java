@@ -12,7 +12,10 @@ public class Student extends Persons {
         super(userId, code, documentNumber, firstName, lastName);
     }
 
-    public String getBirthDate() {
+    public static String getBirthDare() {
+    }
+
+    public static String getBirthDate() {
         return birthDate;
     }
 

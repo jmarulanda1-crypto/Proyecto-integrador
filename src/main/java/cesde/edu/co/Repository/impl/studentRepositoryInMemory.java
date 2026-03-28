@@ -8,6 +8,13 @@ import java.util.ArrayList;
 public class studentRepositoryInMemory implements StudentRepository{
 
 
+    public Student findById(Long studentId) {
+        return null;
+    }
+
+    public boolean existByDocumentNumber(String documentNumber) {
+    }
+
     public class StudentRepositoryInMemory implements StudentRepository {
 
         private list<student> students;
